@@ -14,7 +14,7 @@ Page({
       dataType: 'json',
       responseType: 'text',
       success: function(res) {
-        console.log(res);
+   //     console.log(res);
         that.Setdata(res)
       },
       fail: function(res) {},
@@ -23,7 +23,7 @@ Page({
   },
 
   Setdata:function(e){
-    console.log(e.data)
+  //  console.log(e.data)
     var allmsg = e.data;
     this.setData({
       allmsg :allmsg
