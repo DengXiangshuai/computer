@@ -13,4 +13,3 @@
       </view>
     </block>
   </view>
-<text>{{article_title}}</text>
