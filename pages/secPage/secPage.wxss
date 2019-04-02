@@ -1,0 +1,62 @@
+.backcoloor{
+  background-color: #f2f2f2
+}
+.title-author {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  font-size: 50rpx;
+  font-weight: 600;
+  color: #333;
+}
+.all{
+  border-bottom: 1px solid #f2f2f2;
+   border-top: 1px solid #f2f2f2;
+  margin-top: 35rpx;
+  background: white
+}
+.date {
+  margin-left: 10rpx;
+}
+
+.type {
+  font-size: 30rpx;
+  color: #666;
+  margin-right: 20rpx;
+}
+
+
+
+.header {
+  border-left: 4px solid gray;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80rpx;
+  padding-left: 10rpx;
+  padding-right: 10rpx
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 25rpx;
+}
+
+.content-item {
+  display: flex;
+  
+ 
+  height: 150rpx;
+  width: 40%;
+  margin: 3px;
+}
+
+.content-item image {
+  height: 80rpx;
+  width: 80rpx;
+}

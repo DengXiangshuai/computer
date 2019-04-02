@@ -1,0 +1,61 @@
+/* pages/firstshop/firstshop.wxss */
+.index-container{
+  background-color: #fff
+}
+.index-border{
+  border-bottom: 1px solid #ededed;
+  border-top: 1px solid #ededed;
+  margin-bottom: 20rpx
+}
+
+.title {
+  font-size: 34rpx;
+  font-weight: 600;
+  color: #333;
+  margin-top: 10rpx;
+}
+
+.TA-img {
+  width: 100%;
+  height: 340rpx;
+  margin-top: 15rpx;
+}
+
+.article {
+  color: #666;
+  font-size: 28rpx;
+  margin-left: 80rpx;
+  letter-spacing: 2rpx;
+}
+
+
+.time {
+  font-size: 25rpx;
+  color: #999;
+  margin-right: 40rpx;
+  margin-bottom: 20rpx;
+  margin-left: 570rpx
+}
+
+
+
+
+
+
+
+
+
+
+
+.dis{
+  margin-left: 30rpx;
+}
+.star-view image{
+   height:16px;
+    width:16px;
+    margin-right: 8px;
+}
+.star-view text{
+  color: #666;
+  font-size: 26rpx;
+}

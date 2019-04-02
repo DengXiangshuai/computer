@@ -1,0 +1,16 @@
+<view class='index-container'>
+    <block wx:for="{{allmsg.news}}">
+      <view class='index-border'>
+
+        <view>
+          <text class='title'>{{item.news_title}}</text>
+          <image class='TA-img' src='{{item.news_img}}'></image>
+          <text class='article'>{{item.news_content}}</text>
+        </view>
+
+        <text class='time'>{{item.news_time}}</text>
+
+      </view>
+    </block>
+  </view>
+<text>{{article_title}}</text>

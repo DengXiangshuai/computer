@@ -1,0 +1,43 @@
+<!--pages/secPage/secPage.wxml-->
+<view>
+  <view class='title-author'>
+    <text class='title'>天气预报</text>
+    <text>{{city}}</text>
+  </view>
+  <text>温馨提示 ：</text>
+  <text>{{ganmao}}</text>
+<view class='backcoloor'>
+  <block wx:for="{{forecast}}">
+    <view class='all'>
+      <view class='header'>
+        <text class='date'>{{item.date}}</text>
+        <text class='type'>{{item.type}}</text>
+      </view>
+
+      <view class='content'>
+        <view class='content-item'>
+          <image src='/images/gaowen1.png'></image>
+          <text>{{forecast[0].high}}</text>
+        </view>
+
+        <view class='content-item'>
+          <image src='/images/diwen.png'></image>
+          <text>{{item.low}}</text>
+        </view>
+
+        <view class='content-item'>
+          <image src='/images/fengli.png'></image>
+          <text>{{item.fengli}}</text>
+        </view>
+
+        <view class='content-item'>
+          <image src='/images/fengxiang5.png'></image>
+          <text>{{item.fengxiang}}</text>
+        </view>
+      </view>
+    </view>
+  </block>
+
+</view>
+
+</view>
