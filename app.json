@@ -1,7 +1,11 @@
 {
   "pages":[
     "pages/firstRead/firstRead",
-    "pages/secPage/secPage"
+    "pages/secPage/secPage",
+    "pages/movies/movies",
+    "pages/movies/movie-detail/movie-detail",
+    "pages/posts/post-detail/post-detail",
+    "pages/movies/more-movie/more-movie"
     
   ],
   "window":{
@@ -25,6 +29,11 @@
         "text": "推荐",
         "iconPath": "images/jian0.png",
         "selectedIconPath": "images/jian1.png"
+      },{
+        "pagePath": "pages/movies/movies",
+        "text": "电影",
+        "iconPath": "images/dianying.png",
+        "selectedIconPath": "images/dianying1.png"
       }
     ]
   }
