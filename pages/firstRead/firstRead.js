@@ -14,7 +14,7 @@ Page({
       dataType: 'json',
       responseType: 'text',
       success: function(res) {
-   //     console.log(res);
+       console.log(res);
         that.Setdata(res)
       },
       fail: function(res) {},

@@ -15,7 +15,7 @@ Page({
       dataType: 'json',
       responseType: 'text',
       success: function (res) {
-        //   console.log(res)
+           console.log(res)
         that.proseccW(res.data)
       },
       fail: function (res) { },
