@@ -50,7 +50,7 @@
 .content-item {
   display: flex;
   
- 
+ align-items: center;
   height: 150rpx;
   width: 40%;
   margin: 3px;

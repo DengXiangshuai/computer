@@ -17,7 +17,7 @@
       <view class='content'>
         <view class='content-item'>
           <image src='/images/gaowen1.png'></image>
-          <text>{{forecast[0].high}}</text>
+          <text>{{item.high}}</text>
         </view>
 
         <view class='content-item'>
