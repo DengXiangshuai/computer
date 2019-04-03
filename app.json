@@ -22,18 +22,18 @@
         "pagePath": "pages/firstRead/firstRead",
         "text": "首页",
         "iconPath": "images/firstPage0.png",
-        "selectedIconPath": "images/firstPage1.png"
+        "selectedIconPath": "images/firstPage2.png"
       },
       {
         "pagePath": "pages/secPage/secPage",
         "text": "推荐",
         "iconPath": "images/jian0.png",
-        "selectedIconPath": "images/jian1.png"
+        "selectedIconPath": "images/jian2.png"
       },{
         "pagePath": "pages/movies/movies",
         "text": "电影",
-        "iconPath": "images/dianying.png",
-        "selectedIconPath": "images/dianying1.png"
+        "iconPath": "images/dianying3.png",
+        "selectedIconPath": "images/dianying4.png"
       }
     ]
   }
