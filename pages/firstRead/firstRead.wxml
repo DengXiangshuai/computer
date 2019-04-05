@@ -1,15 +1,59 @@
 <view class='index-container'>
-    <block wx:for="{{allmsg.news}}">
-      <view class='index-border'>
 
-        <view>
-          <text class='title'>{{item.news_title}}</text>
-          <image class='TA-img' src='{{item.news_img}}'></image>
-          <text class='article'>{{item.news_content}}</text>
-        </view>
+  <view class='index-border'>
 
-        <text class='time'>{{item.news_time}}</text>
+    <view>
+      <text class='title'>{{tech[0].title}}</text>
+      <image class='TA-img' src='{{tech[0].picInfo[0].url}}'></image>
+      <text class='article'>{{tech[0].digest+"……"}}</text>
+    </view>
 
-      </view>
-    </block>
+    <text class='time'>{{tech[0].ptime}}</text>
+
   </view>
+
+  <view class='index-border'>
+
+    <view>
+      <text class='title'>{{auto[0].title}}</text>
+      <image class='TA-img' src='{{auto[0].picInfo[0].url}}'></image>
+      <text class='article'>{{auto[0].digest+"……"}}</text>
+    </view>
+
+    <text class='time'>{{auto[0].ptime}}</text>
+
+  </view>
+
+  <view class='index-border'>
+
+    <view>
+      <text class='title'>{{money[0].title}}</text>
+      <image class='TA-img' src='{{money[0].picInfo[0].url}}'></image>
+      <text class='article'>{{money[0].digest+"……"}}</text>
+    </view>
+
+    <text class='time'>{{money[0].ptime}}</text>
+
+  </view>
+
+  
+
+  <view class='index-border'>
+
+    <view>
+      <text class='title'>{{dy[0].title}}</text>
+      <image class='TA-img' src='{{dy[0].picInfo[0].url}}'></image>
+      <text class='article'>{{dy[0].digest+"……"}}</text>
+    </view>
+
+    <text class='time'>{{dy[0].ptime}}</text>
+
+  </view>
+
+
+ 
+
+
+
+
+</view>

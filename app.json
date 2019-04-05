@@ -1,8 +1,9 @@
 {
   "pages":[
+    "pages/movies/movies",
     "pages/firstRead/firstRead",
     "pages/secPage/secPage",
-    "pages/movies/movies",
+   
     "pages/movies/movie-detail/movie-detail",
     "pages/posts/post-detail/post-detail",
     "pages/movies/more-movie/more-movie"
@@ -19,8 +20,14 @@
     "position": "bottom",
     "list": [
       {
+        "pagePath": "pages/movies/movies",
+        "text": "电影",
+        "iconPath": "images/dianying2.png",
+        "selectedIconPath": "images/dianying3.png"
+      },
+      {
         "pagePath": "pages/firstRead/firstRead",
-        "text": "首页",
+        "text": "新闻",
         "iconPath": "images/firstPage0.png",
         "selectedIconPath": "images/firstPage2.png"
       },
@@ -28,12 +35,7 @@
         "pagePath": "pages/secPage/secPage",
         "text": "推荐",
         "iconPath": "images/jian0.png",
-        "selectedIconPath": "images/jian2.png"
-      },{
-        "pagePath": "pages/movies/movies",
-        "text": "电影",
-        "iconPath": "images/dianying3.png",
-        "selectedIconPath": "images/dianying4.png"
+        "selectedIconPath": "images/jian3.png"
       }
     ]
   }

@@ -7,7 +7,7 @@ Page({
   onLoad: function () {
     var that = this;
     wx.request({
-      url: 'http://meiriyikan.cn/api/json.php',
+      url: 'https://www.apiopen.top/journalismApi',
       data: '',
       header: {},
       method: 'POST',
@@ -24,9 +24,7 @@ Page({
 
   Setdata:function(e){
   //  console.log(e.data)
-    var allmsg = e.data;
-    this.setData({
-      allmsg :allmsg
-    })
+    var allmsg = e.data.data;
+    this.setData(allmsg)
   }
 })
