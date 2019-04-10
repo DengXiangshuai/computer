@@ -48,6 +48,13 @@ function convertToCastInfos(casts) {
   return castsArray;
 }
 
+
+function delHtmlTag(str) {
+  var reg = getRegExp("<[^>]+>", "g");
+  var result = str.replace(reg, '');
+  return result; 
+}
+
 module.exports = {
   convertToStarsArray: convertToStarsArray,
   http: http,

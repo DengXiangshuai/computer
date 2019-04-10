@@ -1,5 +1,5 @@
 //logs.js
-
+var util = require('../../utils/util.js')
 Page({
   data: {
     
@@ -7,7 +7,7 @@ Page({
   onLoad: function () {
     var that = this;
     wx.request({
-      url: 'https://www.apiopen.top/journalismApi',
+      url: 'http://meiriyikan.cn/api/json.php',
       data: '',
       header: {},
       method: 'POST',
@@ -15,6 +15,7 @@ Page({
       responseType: 'text',
       success: function(res) {
        console.log(res);
+  
         that.Setdata(res)
       },
       fail: function(res) {},
@@ -23,8 +24,17 @@ Page({
   },
 
   Setdata:function(e){
-  //  console.log(e.data)
-    var allmsg = e.data.data;
+    console.log(e.data)
+    var allmsg = e.data;
     this.setData(allmsg)
+  },
+  onTap: function () {
+    wx.navigateTo({
+      url: '../thirPage/thirPage',
+      success: function (res) { },
+      fail: function (res) { },
+      complete: function (res) { },
+    })
   }
 })
+

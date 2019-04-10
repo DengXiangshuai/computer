@@ -3,6 +3,7 @@
     "pages/movies/movies",
     "pages/firstRead/firstRead",
     "pages/secPage/secPage",
+    "pages/thirPage/thirPage",
    
     "pages/movies/movie-detail/movie-detail",
     "pages/posts/post-detail/post-detail",

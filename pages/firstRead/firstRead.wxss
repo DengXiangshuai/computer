@@ -32,11 +32,10 @@
 .time {
   font-size: 25rpx;
   color: #999;
-  margin-right: 40rpx;
   margin-bottom: 20rpx;
-  margin-left: 480rpx
+  margin-left: 500rpx
+  
 }
-
 
 
 
